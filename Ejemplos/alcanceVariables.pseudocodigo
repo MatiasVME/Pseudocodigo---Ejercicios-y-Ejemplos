@@ -1,0 +1,14 @@
+Inicio
+	escribir ("Inserte 2 numeros: ")
+	valor1 = leer ()
+	valor2 = leer ()
+	
+	Si, valor1 < valor2, Entonces
+		aux = valo1
+		valor1 = valor2
+		valor2 = aux
+	Fin
+
+	escribir ("Numeros ordenados de mayor a menor")
+	escribir ("valor1: #{valor1}, #{valor2}")
+Fin

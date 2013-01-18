@@ -1,0 +1,24 @@
+#
+# Por: Matías Muñoz Espinoza
+#
+# Plantamiento: 
+# 	Crear un pseudocódigo que dados 2 valores de entrada imprima la 
+# 	división del mayor entre el menor.
+#
+
+Inicio
+	resultado = 0
+
+	escribir ("Introduce el primer número")
+	num1 = leer ()
+	escribir ("Introduce le segundo número")
+	num2 = leer ()
+
+	Si, num1 > num2, Entonces
+		resultado = num1 / num2
+	Si no, Entonces
+		resultado = num2 / num1
+	Fin 
+
+	escribir ("El resultado del número mayor entre el menor es: #{resultado}")
+Fin

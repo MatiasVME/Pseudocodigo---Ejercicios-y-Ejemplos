@@ -1,0 +1,20 @@
+#
+# Por: Matías Muñoz Espinoza
+#
+# Plantamiento: Crear un programa que al ingresar 2 cadenas de caracteres que
+# 	diga que cadena de caracteres tiene mayor longitud o número de caracteres. 
+#
+
+Inicio
+	escribir ("Ingrese lo primera cadena de caracteres:")
+	cadena1 = leer ()
+
+	escribir ("Ingrese la segunda cadena de caracteres:")
+	cadena2 = leer ()
+
+	Si, cadena1 > cadena2, Entonces
+		escribir ("cadena1 tiene mayor longitud que cadena2")
+	Si, cadena1 < cadena2, Entonces
+		escribir ("cadena1 tiene menor longitud que cadena2")
+	Fin 
+Fin

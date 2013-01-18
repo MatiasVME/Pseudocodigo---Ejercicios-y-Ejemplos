@@ -1,0 +1,26 @@
+#
+# Por: Matías Muñoz Espinoza
+#
+# Plantamiento: Leer el sueldo de un empleado y luego las comiciones ganadas por 
+# 	su desempeño en el trabajo. Si las comiciones superan los 80 dolares 
+# 	añadirle un aumento, al sueldo más la comición, de un 15%.
+#
+
+Inicio
+	porcentajeAumento = 15
+	minAumento = 80
+	salarioTotal = 0
+
+	escribir ("¿Cuál es el sueldo del empleado?")
+	salario = leer ()
+
+	escribir ("¿Cuáles son las comiciones ganadas por su desempeño?")
+	comiciones = leer ()
+
+	Si, comiciones > minAumento, Entonces
+		salarioAñadido = ((salario + comiciones) * 15) / 100
+		salarioTotal = salario + comiciones + salarioAñadido 
+	Fin
+
+	escribir ("Su salario total es de #{salarioTotal}")
+Fin
